@@ -1,0 +1,120 @@
+body {
+    
+}
+
+
+
+header { 
+    background-color: rgb(51, 60, 187);
+    width: 100%;
+    color: white;
+    height: 57px;
+    
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;  
+    font-size: 150%;
+    list-style: none;
+}
+
+
+a {
+    text-decoration: none;
+    color:white;
+}
+
+li img{
+    width: 40px;
+    height: 60px;
+}
+
+.first {
+    background-color: rgba(196, 193, 193, 0.993);
+    width:100%;
+    height: 300px;
+    text-align: center;
+
+}
+
+.first h1 {
+    position: relative;
+    top:100px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+.tickets img {
+    width:120px;
+    position: relative;
+    left: 20px;
+    
+}
+
+.players {
+    height: 100px;
+    width: 100px;
+}
+
+.tickets {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+p {
+    font-style: italic;
+    font-size: x-large;
+}
+
+.slider {
+    overflow: hidden;
+}
+
+.slider article {
+   position: relative;
+   width: 500%;
+   margin: 0;
+   left: 0;
+   animation: 12s sliders alternate infinite;
+   animation-delay:3s;
+}
+.slider article img {
+   float: left;
+   width: 20%;
+   height: 500px;
+}
+
+@keyframes sliders {
+   0% {
+        left: 0%;
+   }
+   25% {
+      left:-100%;
+   }
+   50% {
+       left: -200%;
+
+   }
+   75% {
+       left:-300%;
+   }
+   100% {
+       left: -300%;
+   }
+}
+
+
+.players2  {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    right:35px ;
+    
+}
+
+.to {
+    position: relative;
+    right: 27px;
+}

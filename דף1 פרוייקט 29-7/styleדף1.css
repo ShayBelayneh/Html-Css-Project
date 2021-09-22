@@ -1,0 +1,164 @@
+@media only screen and (max-width:375px) {
+    div.toomuch1 {
+        width: 350px;
+    }
+}
+
+body {}
+
+header {
+    background-color: rgb(51, 60, 187);
+    width: 100%;
+    color: white;
+    height: 57px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    font-size: 150%;
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover {}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h4 {
+    text-align: center;
+    font-size: 150%;
+}
+
+li a:hover {
+    transition: 1s;
+    width: 95%;
+}
+
+li img {
+    width: 40px;
+    height: 60px;
+}
+
+.stats {
+    background-color: blue;
+    color: white;
+    width: 90px;
+    height: 40px;
+}
+
+.toomuch1 img {
+    width: 80px;
+    position: relative;
+    left: 100px;
+}
+
+.toomuch1 img:hover {
+    transform: scale(1);
+    height: 95px;
+    width: 95px;
+}
+
+.toomuch1 {
+    background-color: rgba(196, 193, 193, 0.993)
+}
+
+video {
+    width: 100%;
+    position: relative;
+    top: 20px;
+    height: 100%;
+}
+
+.best-sellers h3 {
+    font-size: 200%;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+.jerseys a :hover {
+    transition: 2s;
+    width: 300px;
+}
+
+.jerseys {
+    /* position: relative; */
+    top: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.jerseys b {
+    font-size: 150%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.milwaukee img {
+    height: 450px;
+}
+
+.milwaukee h2 {
+    margin-left: 250px;
+}
+/*.champion {
+display: flex;
+justify-content: space-between;
+
+
+}*/
+
+.slider {
+    overflow: hidden;
+}
+
+.slider article {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 12s sliders alternate infinite;
+    animation-delay: 3s;
+}
+
+.slider article img {
+    float: left;
+    width: 20%;
+    height: 500px;
+}
+
+@keyframes sliders {
+    0% {
+        left: 0%;
+    }
+    25% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    100% {
+        left: -300%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    body {
+        width: 500px; 
+        
+    }
+    {
+        /*footer 
